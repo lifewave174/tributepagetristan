@@ -54,10 +54,18 @@ header {
     position: fixed;
     width: 100%;
     background-color: black;
+    text-align: center;
 }
 
 .aboutpagenav {
+    width:100%;
+    text-align: center;
+}
 
+.aboutpagenav ul {
+    text-align: center;
+    position: relative;
+    display: inline-block;
 }
 
 h1 {
@@ -78,10 +86,7 @@ h1 a {
     text-align: center;
 }
 
-.aboutpagenav {
-    width: 22%;
-    margin: auto;
-}
+
 
 #aboutmain {
     font-family: 'Roboto Mono', monospace;
