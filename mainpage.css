@@ -10,11 +10,11 @@ body {
     background-image: url(images/trist5.png);
     background-position: center bottom;
     background-repeat: no-repeat;
-    background-size: 680px;
+    background-size: 40%;
 }
 
 .mainpagequote {
-    font-size: 3.8rem;    
+    font-size: 3.8em;    
     width: 30%;
     height: 40%;
     padding-left: 8.5em;
