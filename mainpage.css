@@ -67,6 +67,7 @@ header {
     position: relative;
     display: inline-block;
     width: 100%;
+    padding-left: 0;
 }
 
 h1 {
@@ -98,8 +99,10 @@ h1 a {
 }
 
 #aboutmain img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
-    padding: 0% 24% 2% 24.5%
 }
 
 footer {
