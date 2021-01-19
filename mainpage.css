@@ -1,0 +1,107 @@
+body {
+   background-color:#040605;
+   color: #ffefef;
+   font-family: 'Bebas Neue', cursive;
+}
+
+
+#homemain {    
+    height: 100vh;
+    background-image: url(images/trist5.png);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: 680px;
+}
+
+.mainpagequote {
+    font-size: 3.8rem;    
+    width: 30%;
+    height: 40%;
+    padding-left: 8.5em;
+    margin-left: 10px;
+    display: inline-block;
+    padding-top: 5em;
+    position: absolute;
+    line-height: 4.7rem;
+}
+
+.mainpagenav {
+    display: inline-block;   
+    float: left;
+    padding-top: 5.1em;
+    width: 20%;
+    height: 40%;
+    font-size: 3.8rem;
+    margin-left: 220px;
+}
+
+.mainpagenav ul {
+    list-style-type: none;
+}
+
+ul li a {
+    color: #ffefef;
+    text-decoration: none;
+}
+
+a:active, a:hover {
+    color: darkgoldenrod;
+  }
+
+/* About page */
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+
+.aboutpagenav {
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 300px;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #ffefef;
+}
+
+.aboutpagenav ul li  {
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.aboutpagenav {
+    width: 22%;
+    margin: auto;
+}
+
+#aboutmain {
+    font-family: 'Roboto Mono', monospace;
+    padding: 11em 15em 5em 15em;
+    background-color: cornsilk;
+    color: black;
+    line-height: 1.5em;
+}
+
+#aboutmain img {
+    width: 50%;
+    padding: 0% 24% 2% 24.5%
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    font-size: larger;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 20px;
+}
